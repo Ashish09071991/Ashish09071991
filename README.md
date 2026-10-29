@@ -5,7 +5,7 @@
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/ashish-pandey-05120a30">
-  <img src="./assets/avatar.svg" alt="Ashish Pandey" width="170" height="170" />
+  <img src="./assets/avatar.png" alt="Ashish Pandey" width="150" height="150" />
 </a>
 
 <br/>
@@ -180,51 +180,67 @@ flowchart TD
 
 Direct links to open-source infrastructure and automation implementations from my workspace:
 
-### 1. 🏗️ [`landing-zone-code`](https://github.com/Ashish09071991/landing-zone-code)
+### 1. 🏗️ [`azure-enterprise-landing-zones`](https://github.com/Ashish09071991/azure-enterprise-landing-zones)
 **Enterprise Azure Landing Zone Infrastructure as Code**
 * Modular, scalable Terraform codebase delivering enterprise Hub-and-Spoke network topology.
 * Provisions segregated subnets, route tables, NSGs, and remote state backend locking with Azure Blob Storage.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/landing-zone-code)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/azure-enterprise-landing-zones)
 
 ---
 
-### 2. 📦 [`resource-group-storage-account`](https://github.com/Ashish09071991/resource-group-storage-account)
+### 2. ☸️ [`azure-kubernetes-aks-terraform-iac`](https://github.com/Ashish09071991/azure-kubernetes-aks-terraform-iac)
+**Production Azure Kubernetes Service (AKS) Architecture**
+* Enterprise AKS cluster deployment with dedicated System & User autoscaling node pools.
+* Configured with Azure CNI networking, Managed Identity, and Azure Log Analytics container observability.
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/azure-kubernetes-aks-terraform-iac)
+
+---
+
+### 3. 🛡️ [`devsecops-pipeline-security-framework`](https://github.com/Ashish09071991/devsecops-pipeline-security-framework)
+**Enterprise DevSecOps CI/CD Pipeline Security Framework**
+* Shift-Left security automation integrating Checkov, TFSec, Trivy, and Gitleaks pre-flight gates.
+* Ready-to-use pipeline definitions for both GitHub Actions and Azure DevOps YAML multi-stage workflows.
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/devsecops-pipeline-security-framework)
+
+---
+
+### 4. 📦 [`terraform-azure-storage-account-dynamic`](https://github.com/Ashish09071991/terraform-azure-storage-account-dynamic)
 **Declarative Multi-Resource Automation using `for_each` & `map(object)`**
 * Advanced Terraform construct implementation driving multi-region Resource Group and Storage Account provisioning from a single structured map.
 * Enforces standardized naming conventions, tiering policies, and security configurations.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/resource-group-storage-account)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/terraform-azure-storage-account-dynamic)
 
 ---
 
-### 3. 🖥️ [`VM-creation-`](https://github.com/Ashish09071991/VM-creation-)
+### 5. 🖥️ [`terraform-azure-vm-modules`](https://github.com/Ashish09071991/terraform-azure-vm-modules)
 **Parent-Child Modular Compute Engine Architecture**
 * Enterprise Terraform pattern establishing clean decoupling between orchestrator root modules and reusable child compute modules.
 * Dynamic NIC configuration, disk attachment profiles, and secure access management.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/VM-creation-)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/terraform-azure-vm-modules)
 
 ---
 
-### 4. ⚡ [`cicd-pipline`](https://github.com/Ashish09071991/cicd-pipline)
+### 6. ⚡ [`azure-devops-yaml-ci-cd-pipelines`](https://github.com/Ashish09071991/azure-devops-yaml-ci-cd-pipelines)
 **Enterprise Multi-Stage CI/CD Deployment Integration**
 * Multi-stage build, test, and release workflow with automated validation checks and deployment stages.
 * Integrated approval gates and environment-specific variable substitutions.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/cicd-pipline)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/azure-devops-yaml-ci-cd-pipelines)
 
 ---
 
-### 5. 🤖 [`Github-action`](https://github.com/Ashish09071991/Github-action)
+### 7. 🤖 [`github-actions-devsecops-workflows`](https://github.com/Ashish09071991/github-actions-devsecops-workflows)
 **Automated DevSecOps & IaC Verification Workflow**
 * GitHub Actions workflow triggering automated `terraform fmt`, `terraform validate`, and linting scans on pull requests.
 * Secure credential injection via GitHub Secrets and Azure Service Principal authentication.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/Github-action)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/github-actions-devsecops-workflows)
 
 ---
 
-### 6. 💰 [`Ashish-devops`](https://github.com/Ashish09071991/Ashish-devops)
+### 8. 💰 [`azure-finops-cost-governance`](https://github.com/Ashish09071991/azure-finops-cost-governance)
 **FinOps Automation & Cloud Governance Engine**
 * Automated scripts and runbooks to identify unattached managed disks, idle public IPs, and unused resources.
 * Enforces enterprise resource tagging hygiene and cost governance across Azure subscriptions.
-* [**Explore Repository ➜**](https://github.com/Ashish09071991/Ashish-devops)
+* [**Explore Repository ➜**](https://github.com/Ashish09071991/azure-finops-cost-governance)
 
 ---
 
