@@ -180,6 +180,15 @@ flowchart TD
 
 Direct links to open-source infrastructure and automation implementations from my workspace:
 
+### 🌟 Flagship: Azure Secure 3-Tier Enterprise Networking Architecture
+*A production-ready, highly available, and zero-trust cloud application stack inspired by enterprise mission-critical designs:*
+* 🌐 [`azure-secure-3tier-network-terraform`](https://github.com/Ashish09071991/azure-secure-3tier-network-terraform) — Full modular Terraform IaC provisioning Application Gateway WAF v2, 3 isolated subnets, Internal Load Balancer, PostgreSQL Flexible Server with Private Endpoints, Azure Bastion, and Azure Monitor.
+* 🖥️ [`azure-3tier-frontend-web-service`](https://github.com/Ashish09071991/azure-3tier-frontend-web-service) — Web Tier portal running in Frontend Subnet behind Application Gateway with Nginx reverse proxy, health probe endpoints, and automated CI/CD.
+* ⚙️ [`azure-3tier-backend-api-service`](https://github.com/Ashish09071991/azure-3tier-backend-api-service) — Business Logic API running in Backend Subnet behind Internal Load Balancer, integrating with Azure Key Vault via Managed Identity and PostgreSQL Flexible Server.
+* 🛡️ [`azure-network-security-observability-suite`](https://github.com/Ashish09071991/azure-network-security-observability-suite) — Zero-Trust NSG audit scripts, Azure Bastion native tunneling, production KQL queries (WAF attacks & NSG Flow Logs), and Azure Policy as Code guardrails.
+
+---
+
 ### 1. 🏗️ [`azure-enterprise-landing-zones`](https://github.com/Ashish09071991/azure-enterprise-landing-zones)
 **Enterprise Azure Landing Zone Infrastructure as Code**
 * Modular, scalable Terraform codebase delivering enterprise Hub-and-Spoke network topology.
