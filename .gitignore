@@ -1,0 +1,10 @@
+# Terraform gitignore
+**/.terraform/*
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.*
+.terraform.tfstate.lock.info
